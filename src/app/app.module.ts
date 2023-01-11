@@ -8,6 +8,10 @@ import { AdditionComponent } from './addition/addition.component';
 import { SubstractionComponent } from './substraction/substraction.component';
 import{FormsModule} from '@angular/forms';
 import { MultiplicationComponent } from './multiplication/multiplication.component';
+import { FactorialComponent } from './factorial/factorial.component';
+import { PrimenumberComponent } from './primenumber/primenumber.component';
+import { FibonacciComponent } from './fibonacci/fibonacci.component';
+import { NavibarComponent } from './navibar/navibar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { MultiplicationComponent } from './multiplication/multiplication.compone
     MycomponentComponent,
     AdditionComponent,
     SubstractionComponent,
-    MultiplicationComponent
+    MultiplicationComponent,
+    FactorialComponent,
+    PrimenumberComponent,
+    FibonacciComponent,
+    NavibarComponent
   ],
   imports: [
     BrowserModule,
